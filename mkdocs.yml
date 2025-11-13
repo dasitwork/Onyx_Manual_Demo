@@ -8,7 +8,7 @@ use_directory_urls: false
 
 theme:
   name: material
-  logo: images/onyx-logo.png
+  logo: Obsidian_Logo.png
 
   palette:
 
@@ -25,6 +25,7 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
       primary: black
+      accent: purple
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
