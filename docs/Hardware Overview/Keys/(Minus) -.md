@@ -1,0 +1,2 @@
+- Removes items from the Fixture selection Query
+- use -- to set timecode values back to null
