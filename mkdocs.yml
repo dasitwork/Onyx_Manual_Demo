@@ -4,11 +4,18 @@ site_url: 'https://support.obsidiancontrol.com/onyx-user-manual/'
 use_directory_urls: false
 #repo_url:
 
-
+copyright: Copyright &copy; 2025 Obsidian Control Systems. All rights reserved.
 
 theme:
   name: material
   logo: Obsidian_Logo.png
+  icon: Obsidian_PrimaryMark.ico
+  favicon: Obsidian_PrimaryMark.ico
+
+  features:
+    #- navigation.tabs
+    - navigation.footer
+    - navigation.path
 
   palette:
 
@@ -38,9 +45,9 @@ theme:
   
 
 extra:
+  generator: false
   version:
     default: latest
     alias: true
     provider: mike
-
 

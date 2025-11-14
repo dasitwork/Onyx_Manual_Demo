@@ -1,5 +1,8 @@
 {
   "useMarkdownLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "/assets/images"
+  "attachmentFolderPath": "/assets/images",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "newLinkFormat": "relative"
 }

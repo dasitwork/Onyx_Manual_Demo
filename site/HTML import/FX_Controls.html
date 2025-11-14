@@ -1,0 +1,4867 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://support.obsidiancontrol.com/onyx-user-manual/HTML%20import/FX_Controls.html">
+      
+      
+        <link rel="prev" href="Embedded_Presets.html">
+      
+      
+        <link rel="next" href="FX_Link.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>FX Controls - Onyx User Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fx-controls" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="Onyx User Manual" class="md-header__button md-logo" aria-label="Onyx User Manual" data-md-component="logo">
+      
+  <img src="../Obsidian_Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Onyx User Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              FX Controls
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="purple"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Onyx User Manual" class="md-nav__button md-logo" aria-label="Onyx User Manual" data-md-component="logo">
+      
+  <img src="../Obsidian_Logo.png" alt="logo">
+
+    </a>
+    Onyx User Manual
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    New in Onyx 4.32
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTML import
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HTML import
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2D_Plan_Options.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2D Plan Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2D_Plan_Pages.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2D Plan Pages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2D_Plan_View.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2D Plan View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Ableton_Link.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ableton Link
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Activating_Attributes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activating Parameters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Adding_Elements.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding Elements to the 2D Plan View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Adding_a_Background_Image.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding a Background Image
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Advanced_Analyzer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced Analyzer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Aligning_Elements.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Align Elements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Animation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Applying_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Applying Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Attribute_Control.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attribute Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Attribute_Info.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attribute Info
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Attribute_Options.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attribute Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Attribute_Popup_%28Direct_Access%29.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attribute Popout (Direct Access)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Audio_Filter_Input_Processor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio Filter Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Audio_LTC_Timecode_Input_Processor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio LTC Timecode Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Basic_Zone_Principles.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basic Zone Principles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Beat_Divider_Input_Processor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beat Divider Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Beat_Provider_Input_Processor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beat Provider Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Choosing_and_Manipulating_the_Content_and_Effects.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Choosing and Manipulating the Content and Effects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Clearing_Attributes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clearing Attributes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Color_Coding_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Color Coding Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Color_Mapping.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Color Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Connecting_Multiple_Input_Processors.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connecting Multiple Input Processors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Copying_and_Moving_Groups.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Copying and Moving Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Copying_and_Moving_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Copying, Moving and Deleting Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DYLOS_Quickstart.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DyLOS Quickstart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Default_Preset.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Default Preset (Legacy)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Default_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Default Values
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Deleting_Elements_from_the_2D_Plan.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deleting Elements from the 2D Plan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DyLOS_Examples.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DyLOS Examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DyLOS_Owner_Lock_and_Security.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DyLOS Owner Lock and Security
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Dynamic_Palettes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dynamic Palettes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Edit_Mode_Options.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Edit Mode Options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Editing_Groups.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Editing and Deleting Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Editing_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Editing Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Effect.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Effect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Effects_1_and_2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Effects 1 and 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Embedded_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Embedded Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FX Controls
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="FX_Controls.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FX Controls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#making-your-first-fx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making Your First FX
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Making Your First FX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#select-fixtures-and-work-with-the-last-used-parameter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Fixtures and Work With The Last-Used Parameter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#base-where-the-fx-begin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Base - Where the FX Begin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-the-fx-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setting the FX Parameters
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting the FX Parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#swing-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Swing (Size)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Speed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiplier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiplier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example #1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example #2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example #3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-the-fx-timing-parameters-to-offset-the-fx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Set the FX Timing Parameters to Offset the FX
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Set the FX Timing Parameters to Offset the FX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wave-and-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wave and Step
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Wave and Step">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wave
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#effect-grouping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effect Grouping
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Effect Grouping">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grouping-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grouping Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mirror-intensity-sweep-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mirror Intensity Sweep Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#every-intensity-sweep-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Every Intensity Sweep Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-intensity-effect-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Block Intensity Effect Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divide-intensity-effect-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Divide Intensity Effect Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#group-intensity-effect-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Group Intensity Effect Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pantilt-and-pt-combo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pan/Tilt and “P/T Combo”
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fx-inside-of-cuelists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FX Inside of Cuelists
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FX Inside of Cuelists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#speed-in-the-same-cuelist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Speed" in the same Cuelist
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="FX_Link.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FX Link
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="FX_Macros.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FX Macros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Fixture_Control_Commands.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fixture Control Commands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Fixture_Fanning.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fixture Fanning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Fixture_Parameter_Window.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fixture Parameter Window
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Generator.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Group_Masking.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Group Masking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Groups.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HighLight_Presets%201.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HighLight Presets (Legacy)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Highlight_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Highlight Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Importing_and_Exporting_Content_Packages.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Importing and Exporting Library Content Packages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Input_Processors.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Input Processors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Input_Processors_Menu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Input Processors Menu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Input_Source.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Input Source
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Input_Source_Types.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Input Source Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Input_Sources.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Input Sources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Library.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Library
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Link_Key.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Link Key
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Live_Programming.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Live Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_2D_Plan_View.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - 2D Plan View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Basic_Zone_Principles.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Basic Zone Principles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Content.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_DyLOS.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - DyLOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_FX.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - FX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Fixture_Parameter_Window.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Fixture Parameter Window
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Fixtures_and_Groups.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Programming/Fixtures and Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Groups.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Programming/Fixtures and Groups/Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Manipulating_Fixtures.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Manipulating Fixtures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Mapping.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Programming.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manual_Using_the_Grouping_Tools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Onyx User Manual - Programming/Fixtures and Groups/Groups/Using the Grouping Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Mapping.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Mapping_Adjustments.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapping Adjustments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Masking.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Masking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Master_Fixture.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Master Fixture (Zone Fixture)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Media.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Media
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Offsets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Offsets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Opacity.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opacity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Palettes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Static Palettes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Parameter_Weight_Sub-Channels.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parameter Weight Sub-Channels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Parking.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Placing_the_Canvas_in_3D_Space.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Placing the Canvas in 3D Space
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Preset_Mapping.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preset Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Presets_and_Effects.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presets and Effects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Presets_and_Timing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presets and Timing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Programmer_Control.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programmer Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Programmer_Modes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programmer Modes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Quick_Access_Fade_And_Delay.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Access Mode Fade And Delay
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Recording_Fixture_Selection_Masks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recording Fixture Selection Masks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Recording_Groups.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recording Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Recording_Presets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recording Presets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Reference_Input_Processor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Selecting_Active_Fixtures.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selecting Active Fixtures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Selecting_Fixtures.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selecting Fixtures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Selecting_Groups.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selecting Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Setting_Up_DYLOS.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DyLOS Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Shape.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shape
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Source.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Source
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Spectrum_Input_Processor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spectrum Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Synchronized_Effects.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synchronized Effects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Text.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Text
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="The_Fixture_Center.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Fixture Center
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="The_Preset_Window.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Preset Window
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="The_Programmer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Programmer - How it Works
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Thumbnail_Modes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Thumbnail Modes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Undo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Undo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Using_Layers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using Layers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Using_an_Input_Processor_with_Dylos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using an Input Processor with Dylos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Using_the_Grouping_Tools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using the Grouping Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Using_the_Load_Command.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using the Load Command
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Using_the_Predefined_Grouping_Tools_Masks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using the Predefined Grouping Tools Masks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="VU_Input_Processor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VU Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Video_Input_Processor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Video Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Virtual_Gobo_Mapping.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtual Gobo Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Waveform_Inpu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waveform Input Processor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="What_is_DYLOS.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What is DyLOS?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Zone_Composer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zone Composer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Zone_Output.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zone Output
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Zone_Parameters.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zone Parameters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Zones.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zone Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#making-your-first-fx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making Your First FX
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Making Your First FX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#select-fixtures-and-work-with-the-last-used-parameter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Fixtures and Work With The Last-Used Parameter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#base-where-the-fx-begin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Base - Where the FX Begin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-the-fx-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setting the FX Parameters
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting the FX Parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#swing-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Swing (Size)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Speed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiplier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiplier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example #1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example #2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example #3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-the-fx-timing-parameters-to-offset-the-fx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Set the FX Timing Parameters to Offset the FX
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Set the FX Timing Parameters to Offset the FX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wave-and-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wave and Step
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Wave and Step">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wave
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#effect-grouping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effect Grouping
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Effect Grouping">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grouping-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grouping Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mirror-intensity-sweep-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mirror Intensity Sweep Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#every-intensity-sweep-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Every Intensity Sweep Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-intensity-effect-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Block Intensity Effect Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divide-intensity-effect-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Divide Intensity Effect Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#group-intensity-effect-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Group Intensity Effect Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pantilt-and-pt-combo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pan/Tilt and “P/T Combo”
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fx-inside-of-cuelists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FX Inside of Cuelists
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FX Inside of Cuelists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#speed-in-the-same-cuelist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Speed" in the same Cuelist
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="fx-controls">FX Controls</h1>
+<p>ONYX handles effects as an extension of the fixture parameters. Every parameter has its own individual FX section to modulate its values, which are stored as regular parameters.</p>
+<p>Because of this, FX are able to be manipulated using the <a href="../../Playback/Cues_and_Cuelists/Cuelist_Types/Cuelist_Types.htm">different Cuelist Types</a>, as if they were any other parameter.</p>
+<p>FX values can also be stored without base value which allows flexible, on the fly adjustment and mixing of effects as well as complex effects speed and effects size control when working inside a cue list. Effects can be stored and recalled from a dedicated FX Macros directory.</p>
+<p><em>ONYX utilizes a very powerful Effects Engine.</em></p>
+<p>You can use either pre-programmed shapes or work on an attribute-by-attribute level to design your own.</p>
+<p>FX are created using the attribute controls.</p>
+<p>While going through this section of the manual, it will be quite useful to be at your ONYX software or console.</p>
+<p>Some terms and concepts that might not be familiar to you will be much easier to grasp if you can follow along and try programming a few effects of your own.</p>
+<p>Please note: ONYX handles all attributes the same with the exception of pan and tilt. Pan and Tilt receive a special treatment when “PT Combo” is enabled.</p>
+<h2 id="making-your-first-fx">Making Your First FX</h2>
+<p>Making an FX in ONYX is very simple.</p>
+<ul>
+<li><a href="#1">First, we select fixtures and work with the last-used parameter.</a></li>
+<li><a href="#2">Set a Base (or Not)</a></li>
+<li><a href="#3">Set the FX Parameters</a></li>
+<li><a href="#4">Set the FX Timing Parameters to Offset the FX</a></li>
+<li><a href="#5">Optional: Use Effect Grouping</a></li>
+<li><a href="#6">Pan/Tilt and “P/T Combo”</a></li>
+<li><a href="#7">Program FX inside of Cuelists</a></li>
+</ul>
+<h3 id="select-fixtures-and-work-with-the-last-used-parameter">Select Fixtures and Work With The Last-Used Parameter</h3>
+<p>The last parameter you altered will be displayed at the top of the Parameters window or CV encoders as "[X] on [Parameter]":</p>
+<p><img alt="" src="assets/images/FX%20CV%20Top%203.71.png" /></p>
+<p>It is this parameter that will be affected by an effect once you enter the FX section of the console. If you don't want to use the parameter you last altered, you can choose another parameter by pressing its associated parameter button.</p>
+<p>Once you have selected the parameter you wish to apply an effect to, you will need to enter the FX section of the encoders by pressing the FX button:</p>
+<p><img alt="" src="assets/images/FX%20CV%203.71.png" /></p>
+<p>The FX engine has two sections.</p>
+<p>The first is "FX", which consists of the Swing, Speed, Mode and Multiplier controls which form the basis of any FX.</p>
+<p>The parameter group below that is "FX Timing" which hosts the Wave Per X, Step Per X, Effect Grouping Tools, and Delay, Shift, and Wait controls.</p>
+<p>Load a group of fixtures into the Programmer and press the FX button. This loads the control elements for the motion of the attribute being controlled by the effect.</p>
+<p>The elements are: Swing, Speed, Mode and Multiplier.</p>
+<h3 id="base-where-the-fx-begin">Base - Where the FX Begin</h3>
+<p>All FX elements in ONYX work off the base of the selected attribute.</p>
+<p>The base is simply the value for that attribute before any FX are applied.</p>
+<p>So for intensity, the base can be anywhere between zero and full.</p>
+<p>When we apply an FX element to the intensity, it varies the intensity in relation to the base.</p>
+<p>Therefore, if we use an FX that takes the selected attribute <strong>up</strong> from its baseline to 100% but that attribute’s baseline is already 100%, the effect element won’t have any affect on the attribute.</p>
+<p>To put it another way, if fixture 101 is at full and we apply an effect element that goes from zero to 100% and back to zero, we won’t see any change in the fixtures intensity.</p>
+<p>If however, the fixture were at zero, we would see the intensity rise and fall with the effect.</p>
+<h3 id="setting-the-fx-parameters">Setting the FX Parameters</h3>
+<h4 id="swing-size">Swing (Size)</h4>
+<p>Swing can be described as the amount of the FX to be applied to the attribute.</p>
+<p>In audio terms, it would be described as the amplitude.</p>
+<p>As stated earlier, it affects the selected attribute based on that attributes base value.</p>
+<p>Swing can be set anywhere from "Stop" (a value of 0% to over 250% (Maximum - a numerical value of 170). While you can't get real world attributes of your lights to go over 100%, you can set them this way in FX, and then the effect will sit at the end of the parameter's range until it falls back below 100%.</p>
+<p>Visually, you'll see the effect come to the end of the parameter's range and then pause for a minute, continuing shortly after.</p>
+<h4 id="speed">Speed</h4>
+<p>Speed determines how fast the selected attribute will execute its swing value.</p>
+<p>Again in audio terms, it would be best described as frequency.</p>
+<p>While the base of an attribute does not have a great impact on how speed affects the attribute, <strong>physics and the mechanics of the fixture certainly do.</strong></p>
+<p>If you set a moving head to execute 540 degrees of rotation in 1/4 of a second, it’s probably not going to happen!</p>
+<p>Instead, the fixture will move back and forth off its base position a very small amount as the swing value cycles back and forth past it faster than the motors can move.</p>
+<p>The Speed element can be set from 0% (Stop) to 100% (360 BPM).</p>
+<h4 id="multiplier">Multiplier</h4>
+<p>Multiplier is a further speed parameter. Multiplier simply multiplies the speed of the effect by the number in the counter.</p>
+<p>Multiplier is useful for obtaining extremely fast speed values for intensity and color effects on LED fixtures.</p>
+<p>It's also handy if you want to have 2 similar FX, but one runs at twice the speed, no matter where you <a href="../../Playback/Changing_Global_Cue_Timing.htm">Global Rate</a> is set. You would set the "2X" version of the effect with a multiplier of 2, and all other FX parameters the same.</p>
+<h4 id="mode">Mode</h4>
+<p>The Mode element determines the relationship between the baseline of the attribute and the swing element. These Modes are presented graphically. Below is an example of a Mode with notes to help in interpreting it.</p>
+<p><img alt="" src="assets/images/sine_wave.jpg" /></p>
+<p>Double clicking the button below the Mode parameter will open up the Mode window so that all of its contents can be easily viewed. In ONYX you may double click the parameter on screen to open the pop-up.</p>
+<p><img alt="" src="assets/images/Mode%20Options%203.71.png" /></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>|There are 22 modes available in ONYX.|   |
+|<img alt="" src="assets/images/Sine%20wave%20forward%20V3.png" />|Start at the baseline, fade up the amount specified by the swing element, return to the baseline and then fade below the baseline the same amount before returning to the baseline and starting again.|
+|<img alt="" src="assets/images/Sine%20Wave%20reverse%20V3.png" />|Identical to mode one except that we fade below the baseline first and the direction of travel is right to left.|
+|<img alt="" src="assets/images/Cosine%20forward%20V3.png" />|Start at the baseline, fade up the amount specified by the swing element and fade back to the baseline.|
+|<img alt="" src="assets/images/Cosine%20backwards%20V3.png" />|Identical to mode three except the direction of travel is right to left.|
+|<img alt="" src="assets/images/Sine%20Under%20forward%20V3.png" />|Start at the baseline, fade down the amount specified by the swing element and fade back to the baseline.|
+|<img alt="" src="assets/images/Sine%20Under%20Backwards%20V3.png" />|Identical to mode five except the direction of travel is right to left.|
+|<img alt="" src="assets/images/Step%20forwards%20V3.png" />|Start at the baseline, snap (time zero) up the amount specified by the swing element, and then snap below the baseline the same amount before snapping above the baseline again.|
+|<img alt="" src="assets/images/Step%20backwards%20V3.png" />|Identical to mode seven except that we snap below the baseline first and the direction of travel is right to left.|</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>|Modes 9 through 12 require the use of the "Step per X" or the "Shift" element to function correctly.|   |
+|<img alt="" src="assets/images/Step%20Up%20Forward.png" />|Start at the baseline, snap up the amount specified by the swing element, and then snap back to the baseline. Changes in the modified attribute are applied from first to last selected fixture.|
+|<img alt="" src="assets/images/step%20up%20backwards.png" />|Similar to above, except changes are applied from last to first selected fixture.|
+|<img alt="" src="assets/images/step%20down%20forwards.png" />|Starts at the baseline and then snaps down the amount specified by the swing element and then returns to the baseline. Changes in the modified attribute are applied from first to last selected fixture.|
+|<img alt="" src="assets/images/step%20down%20backwards.png" />|Similar to above, except changes are applied from last to first selected fixture.|</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>|Modes 13 and 14 are effectively the inverse of modes 7 and 8.|   |
+|<img alt="" src="assets/images/Step%20forwards%202.png" />|The inverse of mode 7... Start at the baseline, step down the amount specified by the swing element, return to the baseline and then step above the baseline the same amount before returning to the baseline and starting again.|
+|<img alt="" src="assets/images/step%20backwards%202.png" />|Identical to mode 13 except the travel is right to left.|
+|<img alt="" src="assets/images/Ramp%20down%20forward.png" />|Starts at the baseline then snaps up to the amount specified by the swing value then fades back down to the baseline.|
+|<img alt="" src="assets/images/ramp%20up%20forward.png" />|The inverse of mode 15, we fade up to the amount specified by the swing value then snap back down to the baseline.|
+|<img alt="" src="assets/images/Inverted%20ramp%20down.png" />|Starts at the baseline then snaps down to the amount specified by the swing value then fades back up the the baseline.|
+|<img alt="" src="assets/images/Inverted%20ramp%20up.png" />|The inverse of mode 17, we fade down to the amount specified by the swing value then snap back to the baseline.|
+|<img alt="" src="assets/images/Linear%20Sine%20forward.png" />|Linear based saw mode. Start at the baseline, fade up the amount specified by the swing element, return to the baseline and then fade below the baseline the same amount before returning to the baseline and starting again.|
+|<img alt="" src="assets/images/Linear%20sine%20backwards.png" />|Identical to mode 19 except that we fade below the baseline first and the direction of travel is right to left.|
+|<img alt="" src="assets/images/Ramp%20down%20centre.png" />|Ramp mode. Starts at a value below the baseline specified by the swing value, snaps through the baseline to the upper value specified by the swing value then fades back to the baseline.|
+|<img alt="" src="assets/images/ramp%20up%20centre.png" />|Ramp mode. Starts at a value below the baseline specified by the swing value, fades through the baseline to the upper value specified by the swing value then snaps back to the baseline.|</p>
+<p><strong>FX Examples</strong></p>
+<h3 id="example-1">Example #1</h3>
+<ul>
+<li>Select any moving light and bring it to 50%.</li>
+<li>Making sure that “intensity” is the selected attribute, set the Swing level to 100%.</li>
+<li>Set the speed to 20%.</li>
+</ul>
+<p>You’ll note that the fixture is now fading from zero to full.</p>
+<p>We set intensity attribute to a base of 50%. We are in mode 1 which swings above and below the baseline. Since our base is 50% and our swing is 100%, when the intensity attribute is at the top of the modes shape, we're at full intensity. When we reach the bottom of the mode, we’re at zero.</p>
+<h3 id="example-2">Example #2</h3>
+<ul>
+<li>Continuing with the first example, double press the Mode attribute button to open the mode picker.</li>
+<li>
+<p>Select mode #3 from the drawing above and close the mode window.  </p>
+<p>You can now see that our fixture is cycling between 50 - 100%
+- Take the fixture’s intensity to full.  </p>
+<p><strong>While it appears the effect has stopped running, it hasn’t.</strong> Mode #3 never goes below the baseline and our baseline is now 100% (full), so there’s no effect on the intensity attribute.
+- Open the mode window and select mode #5.  </p>
+<p>Predictably, the fixture is now cycling between 50%-100% again.
+- Change the swing value to 200%.  </p>
+<p>And again, the intensity is changing between zero and full.</p>
+</li>
+</ul>
+<h3 id="example-3">Example #3</h3>
+<ul>
+<li>Select the “Tilt” attribute, and then click the FX parameter group twice to view the second page of attributes.<ul>
+<li>Set "FX Mode" to "P/T Combo Off"</li>
+</ul>
+</li>
+<li>Press the "FX" parameter group to return to the first page of attributes.<ul>
+<li>
+<p>Set Swing to 13% and Speed to 20% (12 BPM).  </p>
+<p>The fixture should now be swinging back and forth.
+    - When the fixture next reaches the end of a swing, change the speed to 0% (Stop).  </p>
+<p>You’ll note that the fixture has stopped, but it’s not at its base. The effect is still “running” but it has, in a manner of speaking, “frozen in time.”
+    - Return the speed to 20% (12 BPM).</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>At this point you may wish to experiment with the pan/tilt attributes and the effect controls with Pan/Tilt Combo off or on.</p>
+<p>In ONYX you can have different attributes on the same fixture running different effects at different speeds. <strong>All attributes of every fixture can run an effect</strong>.</p>
+<h2 id="set-the-fx-timing-parameters-to-offset-the-fx">Set the FX Timing Parameters to Offset the FX</h2>
+<p>When you're building FX on multiple fixtures, it's not very exciting to have all of the fixtures run the FX at the same exact time. While that may be what you want occasionally, more often you want to offset your FX.</p>
+<p>With no offset assigned to an FX, your selected fixtures will all be running the effect at the same time.</p>
+<p>In the FX timing section, we can choose from "Wave" and "Step" as different means to offset our fixtures.</p>
+<h3 id="wave-and-step">Wave and Step</h3>
+<p>Once we switch over to the FX Timing parameter group, we see the Wave and Step controls.</p>
+<p>If you get to this step and see "Delay, Shift, Wait" on the encoders, press FX Timing again to get back to the first page where Wave and Step reside.</p>
+<p>While in the Programmer, you'll see FX values for Delay, Shift and Wait, you can more easily work with these values as Wave and Step. When you select either a Wave value or a Step value, ONYX automatically calculates the Delay, Shift, and Wait values for each fixture, which vary depending on your selection.</p>
+<p><img alt="" src="assets/images/FX%20Wave%20Step%203.71.png" /></p>
+<p>The “Amount X” (where X equals the number of fixtures selected) button is used in combination with the “Wave” and “Step” functions. This allows you to quickly set the Wave or Step elements to the total number of fixtures selected. This effectively "spreads" the effect evenly through the selected fixtures so that no two fixtures are performing the same step at the same time.</p>
+<h4 id="wave">Wave</h4>
+<p>Wave offsets the Mode (Shape) of the FX across the number of fixtures selected in the "Wave per X" encoder. In the picture above I have 10 fixtures running an effect.</p>
+<p>If I set the Wave to 10, I see the effect mode happen once across my fixtures.</p>
+<p>If I set the Wave to 5, I see the effect mode happen twice across my fixtures.</p>
+<h4 id="step">Step</h4>
+<p>Step is similar to Wave, but a little bit different. When you choose a Step, ONYX will have each fixture complete the mode and then the effect moves on to the next fixture.</p>
+<p>Again, in the picture above, if I set the Step to 10, the effect will happen on 1 fixture at a time, and then pass on to the next fixture.</p>
+<p>If I set the Step to 5, the effect will happen on 2 fixtures at a time, and then move on to the next 2.</p>
+<p>If I set the Step to 2, half of the fixtures will run the effect, and then the other half. Step can be used to make some intricate "marquee" style chasing effects!</p>
+<p>Remember: Wave and Step are 2 different ways to control the same thing (FX Offset). Use only one, and be sure to set the other to "Off" to avoid confusion when programming!</p>
+<h3 id="effect-grouping">Effect Grouping</h3>
+<p><img alt="" src="assets/images/FX%20Grouping%203.71.png" /></p>
+<p>The "GR" panel allows you to leverage group mask functions within your FX. With this you can create difficult patterns very quickly.</p>
+<p>To enable FX grouping, click or press the tab with the down arrow at the top of the "GR" parameter display (in the above image. it reads "Mirror per X," but the title will change depending on the grouping selected).</p>
+<p>A drop down menu will appear with the available grouping options listed. Select a grouping option by touching or clicking it.</p>
+<p>If the grouping requires a mask amount, you can set that by touching in the panel or moving the trackbelt or encoder. For more information, see the chapter on " <a href="HTML%20import/Using_the_Grouping_Tools.md">Using the Grouping Tools</a> ."</p>
+<h4 id="grouping-actions">Grouping Actions</h4>
+<p>You can also access the "actions" which are outlined in <a href="HTML%20import/Using_the_Grouping_Tools.md">Using the Grouping Tools</a>.</p>
+<p>To use these, simply press the Grouping parameter group:</p>
+<p><img alt="" src="assets/images/FX%20Grouping%20Tools%203.71.png" /></p>
+<p>You now have access to great filters such as "Random", "Reverse" and "Sort", which can be very helpful when creating FX!</p>
+<p><strong>Examples of Effect Grouping</strong></p>
+<h3 id="mirror-intensity-sweep-example">Mirror Intensity Sweep Example</h3>
+<ol>
+<li>Select Group 4 (Dartz 360's)</li>
+<li>Select the Intensity parameter and set it to 0%</li>
+<li>Press the FX parameter group.</li>
+<li>Set Swing to 200% (2:1).</li>
+<li>Set Speed to 40% (50 BPM)</li>
+<li>Set the Mode to "FX 8"</li>
+<li>Under FX Timing, set the Grouping Tools to "Fan &lt;&gt; Mirror per 2" .</li>
+<li>Set the "Wave Per X" Counter to 12.</li>
+</ol>
+<p>You'll now see an intensity effect, where the intensity moves from outside to in across the Dartz 360's.</p>
+<h3 id="every-intensity-sweep-example">Every Intensity Sweep Example</h3>
+<ol>
+<li>Select Group 4 (Dartz 360's)</li>
+<li>Select the Intensity parameter and set it to 0%</li>
+<li>Press the FX parameter group.</li>
+<li>Set Swing to 200% (2:1)</li>
+<li>Set Speed to 40% (50 BPM)</li>
+<li>Set the Mode to Mode 7</li>
+<li>Under the FX Timing parameter group, set the Grouping Tools to "Fan &lt;&gt; Every 4".</li>
+<li>Set the "Wave Per X" Counter to 6.</li>
+</ol>
+<p>You'll now see a intensity "sweep" that resets every 4 fixtures.</p>
+<h3 id="block-intensity-effect-example">Block Intensity Effect Example</h3>
+<ol>
+<li>Select Group 4 (Dartz 360's)</li>
+<li>Select the Intensity parameter and set it to 0%</li>
+<li>Press the FX parameter group.</li>
+<li>Set Swing to 200% (2:1)</li>
+<li>Set Speed to 40% (50 BPM)</li>
+<li>Set the Mode to Mode 7</li>
+<li>Under FX Timing, set the Grouping Tools to "Fan &lt;&gt; Block of 2".</li>
+<li>Set the "Step Per X" Counter to 6.</li>
+</ol>
+<p>You'll see how the effect works in "blocks" of 2 fixtures at a time, repeated 6 times across the 12 fixtures.</p>
+<h3 id="divide-intensity-effect-example">Divide Intensity Effect Example</h3>
+<ol>
+<li>Select Group 4 (Dartz 360's)</li>
+<li>Select the Intensity parameter and set it to 0%</li>
+<li>Press the FX parameter group.</li>
+<li>Set Swing to 200% (2:1)</li>
+<li>Set the speed to 40% (50 BPM)</li>
+<li>Set the Mode to Mode 7</li>
+<li>Under the FX Timing parameter group, Set the Grouping Tools to "Fan &lt;&gt; Divide by 4"</li>
+<li>Set the "Wave Per X" Counter to 6.</li>
+</ol>
+<p>This FX will do a "build" across the 4 sets of fixtures that you divided.</p>
+<h3 id="group-intensity-effect-example">Group Intensity Effect Example</h3>
+<ol>
+<li>Select Group 1 (Artiste DaVinci), Group 2 (Fuze Wash Z350) and Group 3 (Dartz 360)</li>
+<li>Select the Intensity parameter and set it to 0%</li>
+<li>Press the FX parameter group.</li>
+<li>Set Swing to 200% (2:1)</li>
+<li>Set the Speed to 40% (50 BPM)</li>
+<li>Set the Mode to Mode 7</li>
+<li>Under the FX Timing parameter group set the Grouping Tools to "Fan &lt;&gt; Group"</li>
+<li>Set the "Step Per X" Counter to 3.</li>
+</ol>
+<p>In this case, each of the 3 groups now runs the effect, then the next begins it.</p>
+<h3 id="pantilt-and-pt-combo">Pan/Tilt and “P/T Combo”</h3>
+<p>By default, Pan and Tilt FX always work together, so that it's easier for you to create across both pan and tilt at the same time. Because of this, when you go to build an effect with Pan and Tilt, the options look a little bit different.</p>
+<p>You’ll see that the FX section now has four columns: Swing Pan, Swing Tilt, Speed, and Figure. The first 3 columns have been described above.</p>
+<p><img alt="" src="assets/images/Pan%20Tilt%20FX%203.71.png" /></p>
+<p>The new column, “Figure” contains a variety of geometric shapes that the fixtures can be programmed to approximate. Altering the swings and speed as well as the baseline will determine the actual movement of the fixture(s).</p>
+<p>You can also see all of the "Figures" by double-clicking the parameter name.</p>
+<p>You'll also notice that there is now a second "page" of FX parameters.</p>
+<p>Click FX again, and you'll be taken to the 2nd page of FX parameters, which only shows for Pan/Tilt Combo FX:</p>
+<p><img alt="" src="assets/images/FX%20Pan%20Tilt%202nd%20Layer%203.71.png" /></p>
+<p>First, we see <strong>Mode</strong>. In Pan/Tilt Combo FX, mode allows you to quickly modify the direction of the whole effect, or parts of it.</p>
+<p>On the mode selectors, we can see some have the letters PI and TI.</p>
+<p>PI will invert the pan, and TI will invert the tilt. This is a very quick way to get a different shape.</p>
+<p>The <strong>multiplier</strong> column works in the same way as regular FX (explained above).</p>
+<p><strong>Rotate</strong> allows you to adjust FX for fixtures that are hung in a different direction, or whatever creative idea you come up with!</p>
+<p>Last, we have FX Mode, which allows us to turn on or off P/T combo entirely. When P/T combo is off, Pan and Tilt work independently with FX, just like any other parameter in ONYX.</p>
+<p>While they have a few extra controls, for the most part Pan/Tilt FX work much like any other FX. For many FX, it may make sense to use the P/T combo, but it can always be disabled per effect as desired.</p>
+<h2 id="fx-inside-of-cuelists">FX Inside of Cuelists</h2>
+<p>It is important to realize that while FX attributes do not pertain to an actual physical device (such as an iris or pan/tilt motor), ONYX treats it the same as any other attribute. This is particularly apparent and useful when discussing LTP.</p>
+<p>Effect Values are the same as any other value, they track through the cuelist. The base value and effect value both track independently of the other.</p>
+<p>That is to say, if you have a step effect running on Cyan, with a base value of 0% then you record another cue with Cyan at 100%, the effect will still be running in the second cue. This may be desirable, but in the case of you wanting to remove the effect, it will need to be "stomped".</p>
+<p>Furthermore, each Effect channel will also track independently of the other effect channels and the associated base vale. This is to say that you could change the mode of an effect and the rest of the data will track through to the next cue.</p>
+<p>Stomping, or removing, an effect is essentially just assigning its swing value to 0%. For example, make a Cyan effect on the Artiste DaVinci's and record this as Cue 1. Now for Cue 2, we want the Cyan base value to stay the same but we want to remove the effect.</p>
+<ol>
+<li>Select the Artiste DaVinci's.</li>
+<li>Set the swing value to 0%</li>
+<li>Record Cue 2.</li>
+</ol>
+<p>Note that in Cue 1 the Cyan effect runs as expected, Cue 2 will stop the effect.</p>
+<p>Note that there are FX Macros already generated which contain FX stop for various parameters. For more information on how to use the Macros, <a href="HTML%20import/FX_Macros.md">see FX Macros.</a></p>
+<p>We can examine some more of this behavior with these examples.</p>
+<p><strong>FX “Speed" As its own Cuelist</strong></p>
+<ol>
+<li>Select a moving light and bring it to full.</li>
+<li>Select the “Tilt” attribute.</li>
+<li>In FX, set the Swing to 50%. <strong>Do Not Change The Speed. Leave Speed at zero.</strong></li>
+<li>Record this in a new Cuelist of type Cuelist.</li>
+<li>Without clearing the Programmer, set the Speed to 40%. <strong>Do Not Change The Swing.</strong></li>
+<li>Record this in a new Cuelist of type “Override”.</li>
+<li>Execute both Cuelists and take both faders to full.</li>
+</ol>
+<p>You can now see the moving light tilting up and down. When you pull down the Override cuelist fader, you have manual control over the speed of the effect. What’s more, the other fader will control the intensity of the fixture giving you full control of the look.</p>
+<p>Had a speed been entered in the first cue created, the override cue would still have taken control of the fixture. Once the override cue had been released, the fixture would have returned to the original speed.</p>
+<h3 id="speed-in-the-same-cuelist">"Speed" in the same Cuelist</h3>
+<ol>
+<li>Select any group of fixtures. Leave the intensity at 0.</li>
+<li>Select the intensity attribute.</li>
+<li>
+<p>In FX, set Swing to 200%, Speed to 25% and select Mode FX 3.  </p>
+<p>The fixtures should be fading from zero to full.
+4. Press the FX Timing parameter group button and set a shift or delay value.
+5. Record as cue 1 in a new cuelist.
+6. Without clearing the Programmer, press FX and increase the Speed to 50%.
+7. Record as cue 2 in the same cuelist and clear the Programmer.</p>
+</li>
+</ol>
+<p>When we play these cues, we can see that the speed increases when cue 2 is executed. If we make changes in cue 1, we’ll see those changes track through and again, all cue 2 will do is increase the speed.</p>
+<h1 id="reference-delay-shift-and-wait">Reference: Delay, Shift and Wait</h1>
+<p>Delay, Shift, and Wait are the parameters that ONYX uses when you select Wave or Step when creating an effect.</p>
+<p>Most users do not need to touch these parameters, and Wave and Step do everything they need.</p>
+<p>But since this is the user manual, it's important to cover in case you need to modify them directly.</p>
+<h2 id="delay">Delay</h2>
+<p>The Delay element creates the image of a wave of FX. With the same regular FX running on a group of fixtures, utilizing Delay will cause the fixtures to be at a different points in that FX. The number of points along the duration of the effect that the group of fixtures is divided into is set using Delay. While Delay can be set using the encoders, it is highly recommended that you use the touch screen; either the pop-up window or by touching the values listed in the Delay column.</p>
+<h2 id="shift">Shift</h2>
+<p>Shift is similar to delay except where delay divides the effect and distributes the fixtures evenly along its curve, Shift divides the number of fixtures evenly and distributes the effect to them. The pop-up window for Shift is essentially identical to the wave pop-up with the exception that “step” is used instead of “wave.”</p>
+<h2 id="wait">Wait</h2>
+<p>The Wait element, unlike some of the other elements found in the FX section, is not expressed as an arbitrary value, but is instead expressed in seconds from 1 to 1000. The wait is the amount of time between the completion of an FX, and when the FX restarts. If, for example, you’re using an FX that takes 10 seconds to go through all of its steps and you have a wait time of 5, all the fixtures will go through the FX once and will then sit at their baseline for 5 seconds before running the FX again.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": "latest", "provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
