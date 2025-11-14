@@ -27,10 +27,14 @@
             "id": "dbb06d4a5fe89aad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -208,7 +212,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c9cf485012395de1",
+  "active": "dbb06d4a5fe89aad",
   "lastOpenFiles": [
     "index.md",
     "assets/images/NX4_Front_Panel.png",
